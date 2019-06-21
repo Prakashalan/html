@@ -4,6 +4,7 @@
     <title>indexhtml</title>
 </head>
 <body>
+    <a href="../html/blog.html">Go to blog</a>
     <!--headings-->
     <h1>Heading one</h1>
     <h2>Heading two</h2>
@@ -11,14 +12,15 @@
     <h4>Heading four</h4>
     <h5>Heading five</h5>
 
+    
     <!--paragraph-->
     <p>
             Writers write <strong> paragraphs because</strong> their purpose is to describe something. 
             Their point is that something is <em> or disgusting</em> or <a href="http://google.com" target="_blank">strangely intriguing.</a> 
             Writers write persuasive and argument paragraphs because their purpose is to persuade or 
             convince someone. Their point is that their reader should see things a particular way and
-            possibly take action on that new way of seeing things. Writers write paragraphs of comparison
-            because the comparison will make their point clear to their readers.
+            possibly take action on that new way of seeing things. <strong>Writers write paragraphs of comparison
+            because the comparison will make their point clear to their readers.</strong>
     </p>
     <p>
             <em>and lakes have much in common</em> , but they are also quite different. 
@@ -58,8 +60,76 @@
                 <td>prakash@gmail.com</td>
                 <td>21</td>
             </tr>
+            <tr>
+                    <td>Prem</td>
+                    <td>prem@gmail.com</td>
+                    <td>27</td>
+                </tr>
+                <tr>
+                        <td>Praveen</td>
+                        <td>praveen@gmail.com</td>
+                        <td>25</td>
+                    </tr>
         </tbody>
     </table>
+    <br>
+    <!--forms-->
+    <form action="process.php" method="POST">
+        <div>
+            <label>First Name</label>
+            <input type="text" name="first-name"placeholder="Enter the first name">
+        </div>
+        <div>
+            <label>Last Name</label>
+            <input type="text" name="last-name" placeholder="Enter the last name">
+        </div>
+        <div>
+                <label>Email</label>
+                <input type="email" name="email" placeholder="Enter the Email_id">
+        </div>
+        <div>
+                <label>Message</label>
+                <textarea name="message"></textarea>
+        </div>
+        <div>
+                <label>Gender</label>
+                <select name="gender">
+                    <option value="male">male</option>
+                    <option value="female">female</option>
+                    <option value="others">others</option>
+                </select> 
+                
+        </div>
+        <br>
+        <div>
+            <label>age:</label>
+            <input type="number" name="age" value="30">
+        </div>
+        <br>
+        <div>
+                <label>birthday:</label>
+                <input type="date" name="birthday">
+        </div>
+        <br>
+        <input type="submit" name="submit value="submit">
+    </form>
+    <!--button-->
+    <button>clickme</button>
+    <!--image-->
+    <a href="images/sample.jpg">
+        <img  alt="My Sample Image" width="200">
+    </a>  
+    <!--Quotations--> 
+    <blockquote cite="http://traversymedia.com">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Error deserunt laudantium soluta unde reprehenderit dignissimos 
+        perferendis! Quod harum voluptate ipsum a eaque odit illo voluptas
+        temporibus error ut. Est, nobis!
+    </blockquote> 
+     <p>
+        The <abbr title="world wide web">WWW</abbr> is awesome
+    </p>
+    <p><cite>HTML By Prakash</p>
     <div style="margin-top:500px"></div>
 </body>
 </html>
